@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Intermediário</title>
+    <link href="style.css" rel="stylesheet">
+    <style type="text/css">
+    body{
+        font-size: 1.2rem;
+    }
+
+    /* OVERFLOW */
+    #container{
+        color:rgb(220, 255, 24);
+        background: rgb(30, 150, 255);
+        width: 300px;
+        height: 150px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        
+    }
+
+    #container2{
+        background: rgb(233, 127, 7);
+        width: 250px;
+        height: 150px;
+        overflow: auto;
+    }
+
+    /* ALINHAMENTO HORIZONTAL */
+    #quadrado{
+        width: 100px;
+        height: 100px;
+        background: rgb(100, 255, 100);
+        margin: auto;
+    }
+
+    .imagem{
+        width: 500px;
+        margin: auto;
+        display: block;
+        margin-top: 5px;
+    }
+
+    #retangulo{
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    /* POSITION */
+
+    .quadrado{
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+    }
+
+    .ret{
+        width: 150px;
+        height: 400px;
+        margin-top: 5px; 
+        overflow: auto;
+    }
+
+    .bg-blue{
+        background: rgb(10, 100, 200);
+    }
+
+    .bg-red{
+        background: rgb(200, 40, 40);
+    }
+
+    .bg-green{
+        background: rgb(150, 255, 10);
+    }
+
+    .static{
+        position: static;
+    }
+
+    .relative{
+        position: relative;
+        /* left: 20px; */
+    }
+
+    .fixed{
+        position: fixed;
+        bottom: 10px;
+        right: 20px;
+    }
+
+    .absolute{
+        position: absolute;
+        top: 40px;
+    }
+
+    .sticky{
+        position: sticky;
+        top: 20px;/*minimo possivel para ficar fixo na tela*/
+    }
+
+    /* TESTES DE HERANÇA DE CLASSE */
+
+    .linha{
+        display: inline-block;
+    }
+
+    .interno{
+        width: 310px;
+        height: 300px;
+        background: rgb(156, 142, 142);
+        overflow: auto;
+    }
+
+    .square{
+        width: 150px;
+        height: 150px;
+        
+    }
+
+    .circle{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .triangulo{
+        width: 0;
+        height: 0;
+        border-bottom: 100px solid orange;
+        border-right: 100px solid transparent;
+        border-left: 100px solid transparent;
+        
+    }
+
+
+    .bg-bluegreen{
+        background: rgb(75, 245, 194);
+    }
+
+    .bg-purple{
+        background: rgb(100, 44, 120);
+    }
+
+    .bg-orange{
+        background: rgb(230, 132, 40);
+    }
+
+
+
+
+    </style>
+
+</head>
+<body>
+<h2>Display</h2>
+
+<div style="background: rgb(110, 30, 244);">
+    <div>Esta é uma div normal</div>
+    <div>
+        Aqui a historia <div style="background: rgb(255, 0, 0); width: 500px;">Div de dentro </div> continua
+    </div>
+</div>
+
+<div>
+    <p style="margin: 0;">Este é um parágrafo normal</p>
+    <p style="margin: 0">E aqui a história continua</p>
+</div>
+
+<p>
+    Aqui eu tenho o inicio de um parágrafo <span style="background: rgb(30, 200, 190); width: 500px; display: inline-block;">um SPAN no meio</span> E o fim do parágrafo
+</p>
+
+<p style="background: rgb(220, 255, 24);">
+    Aqui eu tenho o inicio de um parágrafo <div style="background: rgb(233, 127, 7);">uma div no meio</div> E o fim do parágrafo
+</p>
+
+<p>
+    Aqui eu tenho o inicio de um parágrafo <img src="imagens/pc1.jpg" width="500px" style="display: none;"> E o fim do parágrafo
+</p>
+
+<h2>Overflow</h2>
+<div id="container">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae expedita excepturi quos quisquam aspernatur sed natus assumenda ipsum perspiciatis vitae, eius explicabo molestias, beatae nihil accusamus sint rem, suscipit provident!
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos dolorum illo sit, nemo odio sapiente debitis nesciunt aliquam error, maiores labore necessitatibus quae quas quisquam officiis nulla in similique minima?
+</div>
+
+<div id="container2">
+   <img src="imagens/pc1.jpg">
+</div>
+
+<br>
+
+<h2>Alinhamento Horizontal</h2>
+<div id="quadrado"></div>
+
+<img class="imagem" src="imagens/dragon_ball.jpg">
+
+<div id="retangulo">
+    <img src="imagens/tijolo.jpg">
+</div>
+
+<br>
+
+<h2>Position</h2>
+
+<div class="static ret bg-blue"></div>
+<div class="fixed quadrado bg-red"></div>
+
+<div class="ret relative bg-blue">
+    <div class="static quadrado bg-green"></div>
+    <div class="absolute quadrado bg-red"></div>
+</div>
+
+<br>
+
+<div class="bg-blue ret">
+    <div class="quadrado bg-red"></div>
+    <div class="quadrado bg-green sticky"></div>
+    <div class="quadrado bg-red"></div>
+    <div class="quadrado bg-red"></div>
+    <div class="quadrado bg-red"></div>
+    <div class="quadrado bg-red"></div>
+    <div class="quadrado bg-red"></div>
+    <div class="quadrado bg-red"></div>
+</div>
+
+<br>
+
+<h2>Teste de herança de classe</h2>
+
+<div>
+    <div class="square bg-bluegreen linha"></div>
+    <div class="circle bg-bluegreen linha"></div>
+    <div class="square bg-bluegreen linha"></div>
+    <div class="circle bg-bluegreen linha"></div>
+    <div class="square bg-bluegreen linha"></div>
+    <div class="circle bg-bluegreen linha"></div>
+    <div class="square bg-bluegreen linha"></div>
+    <div class="circle bg-bluegreen linha"></div>
+</div>
+
+<div class="interno">
+    <div class="square bg-purple linha"></div>
+    <div class="circle bg-purple linha"></div>
+    <div class="square bg-purple linha"></div>
+    <div class="circle bg-purple linha"></div>
+    <div class="square bg-purple linha"></div>
+    <div class="circle bg-purple linha"></div>
+    <div class="square bg-purple linha"></div>
+    <div class="circle bg-purple linha"></div>
+</div>
+
+<div>
+    <div class="square bg-orange linha"></div>
+    <div class="triangulo linha"></div>
+</div>
+
+<br>
+
+<h2>Float</h2>
+
+
+
+</body>
+</html>

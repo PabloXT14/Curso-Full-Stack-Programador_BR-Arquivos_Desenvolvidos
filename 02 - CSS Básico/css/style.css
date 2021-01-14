@@ -1,0 +1,301 @@
+#paragrafos{
+    color:#fffdff;
+    background: rgb(59, 181, 238) url(/CSS\ Básico/imagens/background1.jpg)center/cover no-repeat fixed;
+    /*background-color: rgba(140, 154, 255, 1);
+    background-image: url(../imagens/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    */
+}
+
+
+#Titulo{
+    color:rgba(0, 0,254, 0.5);
+}
+
+.texto_verde{
+    color:green;
+}
+
+.subDiv{
+    background:rgb(37, 15, 117);
+}
+
+
+#cm{
+    background: rgba(240, 30, 100, 0.6);
+    width:1cm;
+    height:1cm;
+}
+
+#mm{
+    background: rgba(100, 30, 255, 0.6);
+    width:1mm;
+    height:1mm;
+}
+
+#in{
+    background: rgba(30, 150, 30, 0.9);
+    width:1in;
+    height:1in;
+}
+
+#px{
+    background: rgba(40, 30, 20, 1);
+    width:10px;
+    height:10px;
+}
+
+#pt{
+    background: rgba(14, 18, 99, 1);
+    width:10pt;
+    height:10pt;
+}
+
+#pc{
+    background: rgba(11, 255, 255, 1);
+    width:1pc;
+    height:1pc;
+}
+
+.container{
+font-size: 20px;
+background:rgb(238, 104, 81);
+/*width:300px;*/
+/*width: 50vw; Relativo a 1% da largura do viewport(janela do navegador)*/
+/*width: 50vh; Relativo a 1% da altura do viewport*/
+/*width: 50vmin; Relativo a 1% da dimensão menor do viewport*/
+/*width: 50vmax; Relativo a 1% da dimensão menor do viewport*/
+width: 70%;/*Relativo ao elemento pai*/
+}
+
+.inside{
+/*font-size:20px;*/
+font-size: 1rem;
+background:rgb(37, 76, 248);
+width: 70%;
+/*width:1em;*/ /*Em relação ao tamanho da fonte do elemento (2em significa 2 vezes o tamanho da fonte actual)*/
+
+}
+
+#base{
+    height: 50px;
+    background: rgb(197, 23, 255);
+}
+
+#container2{
+    background: rgb(4, 115, 226, 1);
+    color: white;
+    margin: 10px 30px;
+    padding: 20px 20px;
+}
+
+/*BORDA*/
+
+.borda{
+    
+    border-width: 0px 0px 0px 5px;
+    border-style: solid;
+    border-color: rgb(57, 155, 77);
+    /*border-radius: 5px;*/
+    background:  rgb(91, 216, 116);
+    padding: 20px;
+    /*    
+    dotted - Define uma borda pontilhada
+    dashed - Define uma borda tracejada
+    solid - Define uma borda sólida
+    double - Define uma borda dupla
+    groove- Define uma borda com sulcos 3D. O efeito depende do valor da cor da borda
+    ridge- Define uma borda 3D estriada. O efeito depende do valor da cor da borda
+    inset- Define uma borda de inserção 3D. O efeito depende do valor da cor da borda
+    outset- Define uma borda de início 3D. O efeito depende do valor da cor da borda
+    none - Não define nenhuma fronteira
+    hidden - Define uma borda oculta
+    */
+}
+
+#borda2{
+    border:1px solid rgb(184, 184, 184);
+    border-radius: 12px;
+    padding: 20px;   
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+    background: rgb(250, 127, 27);
+    border-style: dotted; 
+}
+
+/*BOX MODEL*/
+
+.container3{
+background: rgba(255, 0, 255, 1);
+padding: 5px;
+border: 5px solid rgb(88, 90, 218);
+margin: 10px;
+}
+
+.content{
+background: rgb(216, 216, 216);
+border: 5px solid rgba(5, 139, 0, 1);
+/*outline: 5px solid rgba(5, 139, 0, 1);*/
+margin: 20px;
+padding: 5px;
+
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background: rgba(230, 230, 2, 1);
+    border: 10px solid blue;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.square2{
+    width: 100px;
+    height: 100px;
+    background: rgba(230, 230, 2, 1);
+}
+
+/*AJUSTES DE TEXTO*/
+
+.text{
+    color: rgb(0, 138, 218);
+    text-align: justify;
+    text-transform: uppercase;
+    text-indent: 50px;
+    text-decoration: underline overline;
+    letter-spacing: 1px;
+    line-height: 2;
+    word-spacing: 5px;
+    text-shadow: 1px 1px 0px rgb(43, 43, 43);
+}
+
+/*FOTES*/
+
+.fonts{
+    /*font-family: Arial,"Times New Roman", sans-serif ;/*font-family: banana, "Comic Sans MS", sans-serif*/
+    /*font-family: 'Indie Flower', cursive;/*font customizada de site do google fonts*/
+    font-family: MinhaFonte2;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 800;/*bold= 0-100*/
+    font-variant: small-caps;
+}
+
+/*fonte customizada baixada*/
+@font-face{
+    font-family: MinhaFonte;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+
+@font-face{
+    font-family: MinhaFonte2;
+    src: url(../fonts/PermanentMarker-Regular.ttf);
+}
+
+/*ESTILO DE LINKS*/
+.links{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(204, 48, 165);
+    cursor:grab;
+    /* background: rgb(69, 94, 235); */
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid rgb(204, 48, 165);
+    border-radius: 5px;
+}
+
+.links:visited{
+    color:rgb(255, 48, 125);
+}
+
+.links:hover{
+    background:rgb(204, 48, 165);
+    color: rgb(255, 255, 255);
+}
+
+.links:active{
+    background: rgb(204, 48, 165);
+    color: rgb(71, 24, 24);
+}
+
+.links2{
+    text-decoration: none;
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(143, 143, 143);
+}
+
+.links2:hover, .links2:active{
+    background: rgb(0, 0, 0);
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    animation-delay: 2s;
+}
+
+.link3{
+    background: rgb(132, 132, 248);
+    padding: 20px;
+    border: 5px solid rgb(1, 1, 192);
+    border-width: 0px 0px 0px 5px;
+    
+}
+
+.link3 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.link3:hover, .link3 a:hover{
+    background: rgb(1, 1, 192);
+    color: rgb(255, 255, 255);
+    
+}
+
+/*ESTILIZANDO LISTAS*/
+
+ul{
+    list-style-type:circle;
+    list-style-position: inside;
+    margin: 0px;
+    padding: 7px;
+    background: rgb(250, 93, 237);
+    width: 50%;
+}
+
+ol{
+    list-style-image:url(../imagens/icone-list.png);
+    list-style-position: inside;
+    margin: 0px;
+    padding: 7px;
+    background: rgb(64, 173, 236);
+    width: 50%;
+
+}
+
+li{
+ border: 1px solid rgb( 41, 54, 121);
+ background: rgb(222, 243, 31);
+ margin: 5px;
+ padding: 5px;
+ border-radius: 5px;
+}
+
+.lista{
+
+    text-decoration: none;
+
+}
+
+.lista:hover li{
+    background: rgb(240, 82, 9);
+    color: rgb(255, 255, 255);
+}
