@@ -133,7 +133,6 @@
         
     }
 
-
     .bg-bluegreen{
         background: rgb(75, 245, 194);
     }
@@ -146,8 +145,33 @@
         background: rgb(230, 132, 40);
     }
 
-
-
+    /* FLOAT */
+    .t_float{
+        clear: none;/*proibe elementos flutuando/float a esquerda*/
+        position: relative;
+        left: 2px;
+        
+    }
+    .i1{
+        float: left;
+    }
+    .container_float{
+        border: 2px solid rgb(0, 0, 0);
+        overflow: auto;
+        padding: 2px;
+        background: rgb(95, 95, 95);
+    }
+    /* menu com float */
+    ul{
+        list-style: none;
+    }
+    li{
+        float: left;
+        margin: 5px;
+        background: rgb(96, 96, 173);
+        padding: 10px;
+        color: rgb(255, 255, 255);
+    }
 
     </style>
 
@@ -260,7 +284,19 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos dolorum illo sit,
 
 <h2>Float</h2>
 
+<div class="container_float">
+    <img class="i1" src="imagens/dragon_ball.jpg" width="400px">
+    <p class="t_float">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus optio modi minus corporis totam facere sit quidem, possimus dolore tenetur labore iusto quo impedit praesentium natus magnam neque sint enim!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident libero autem tempora. Praesentium fugit maiores non sunt recusandae saepe ex veritatis similique quisquam, aperiam harum. At blanditiis nostrum iusto nesciunt.
+    </p>
+</div>
+<br>
 
+<ul>
+    <li>Home</li>
+    <li>Cursos</li>
+    <li>Contato</li>
+</ul>
 
 </body>
 </html>
