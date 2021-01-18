@@ -2,9 +2,11 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Intermediário</title>
     <link href="style.css" rel="stylesheet">
     <style type="text/css">
+
     body{
         font-size: 1.2rem;
     }
@@ -208,6 +210,39 @@
         padding-bottom: 100px; 
     }
 
+    /* RESPONSIVIDADE */
+
+    .titulo_resp{
+        clear: left;
+        position: relative;
+        top: 20px;
+    }
+
+    .header{
+        position: relative;
+        padding: 30px;
+        background: rgb(180, 180, 180);
+        height: 100px;
+        width: 80%;
+        margin: auto;
+        
+    }
+
+    .content{
+        width: 70%;
+        height: 70%;
+        background: rgb(62, 210, 255);
+        position: absolute;
+
+        top: 50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+        color: rgb(255, 255, 255);
+        font-size: 6vw;
+        text-align: center;
+    }
 
 
     </style>
@@ -258,7 +293,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos dolorum illo sit,
 <img class="imagem" src="imagens/dragon_ball.jpg">
 
 <div id="retangulo">
-    <img src="imagens/tijolo.jpg">
+    <img src="imagens/tijolo.jpg" width="600px">
 </div>
 
 <br>
@@ -356,8 +391,16 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos dolorum illo sit,
     </div>
 </div>
 
+<h2 class="titulo_resp">Viewport/Responsividade</h2>
+<br>
+<div class="header">
+    <div class="content">
+        Hellow World
+    </div>
+</div>
 
-<br><br><br><br>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 </body>
 </html>
