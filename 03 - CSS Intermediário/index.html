@@ -167,7 +167,7 @@
     ul{
         list-style: none;
     }
-    li{
+    .testmenu{
         float: left;
         margin: 5px;
         background: rgb(96, 96, 173);
@@ -243,6 +243,82 @@
         font-size: 6vw;
         text-align: center;
     }
+
+    /* MEDIA QUERY */
+    .header2{
+        overflow: hidden;
+        background: rgb(136, 25, 201);
+        padding: 15px;
+        width: 90%;
+        margin: auto;
+        font-size: 18px;
+
+    }
+
+     .menu{
+        /* display: inline-block; */
+        list-style: none;
+        margin-top: -15px;
+        margin-bottom: -15px;
+        padding: 0;
+        float: right;
+        
+     }
+
+     .opções{
+        float: left;/*display: inline-block;*/
+        color: rgb(255, 255, 255);
+        margin-left: 15px;
+        
+        padding: 5px;
+        padding-top: 15px;
+        padding-bottom: 15px;        
+     }
+
+     .opções:hover {
+        background: rgb(192, 24, 226);
+     }
+    
+     .logo{
+        float: left;
+        /* display: inline-block; */
+        color: rgb(255, 255, 255);
+     }   
+
+
+     @media screen and (max-width: 600px){
+
+        .header2{
+            /* background: rgb(117, 211, 167); */
+        }
+
+        .logo{
+            float: none;
+            text-align: center;
+        }
+
+        .menu{
+            float: none;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: -5px;
+        }
+
+        .opções{
+            float: none;
+            background: rgb(88, 5, 143);
+            margin: 0;
+            margin-bottom: 5px;
+            padding: 7px;
+        }
+
+        .opções:hover {
+         background: rgb(192, 24, 226);
+     }
+
+
+
+     }
 
 
     </style>
@@ -365,9 +441,9 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos dolorum illo sit,
 <br>
 
 <ul>
-    <li>Home</li>
-    <li>Cursos</li>
-    <li>Contato</li>
+    <li class="testmenu">Home</li>
+    <li class="testmenu">Cursos</li>
+    <li class="testmenu">Contato</li>
 </ul>
 
 <br><br><br>
@@ -399,6 +475,19 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos dolorum illo sit,
     </div>
 </div>
 
+<br>
+
+<h2>Media Query</h2>
+<div class="header2">
+    <div class="logo">Logo</div>
+    <ul class="menu">
+        <li class="opções">🚀 Home</li>
+        <li class="opções">📷 Cursos</li>
+        <li class="opções">⚙ Contato</li>
+        <li class="opções">🏢 Escritórios</li>
+    </ul>
+
+</div>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
