@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Intermediário</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+
+    .enviar{
+        background: rgb(33, 233, 121);
+        border: 1.5px solid rgb(0, 0, 0);
+        border-radius: 7px;
+        width: 150px;
+    }
+
+    .enviar:hover{
+        background: rgb(57, 112, 185);
+        color: white;
+    }
+
+    </style>
+
+
+
+</head>
+<body>
+
+    <h2>Primeiro Formulário</h2>
+    <form method="GET" action="">
+
+        <input type="text" name="search_query">
+        <input class="enviar" type="submit" value="Enviar">
+    
+
+    <br>
+
+    <h2>Tipos de Input</h2>
+
+    <label>Senha:</label>
+    <input type="password" name="senha">
+
+    <br><br>
+
+    <label>CheckBox:</label>
+    <br>
+    <input type="checkbox" name="curso" value="op1">React Native
+    <br>
+    <input type="checkbox" name="curso" value="op2">React JS
+    <br>
+    <input type="checkbox" name="curso" value="op3">Javascript
+
+    <br><br>
+
+    <label>Radio</label>
+    <br>
+    <input type="radio" name="genero" value="M">Masculino
+    <br>
+    <input type="radio" name="genero" value="F" checked>Feminino
+
+    <br><br>
+
+    <label>Reset</label>
+    <br>
+    <input type="reset" value="Limpar">
+
+
+
+    </form>
+    
+</body>
+</html>
