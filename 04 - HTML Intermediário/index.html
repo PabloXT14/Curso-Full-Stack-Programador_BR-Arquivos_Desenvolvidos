@@ -19,6 +19,16 @@
         color: white;
     }
 
+    label{
+    font-size: 120%;
+    font-weight: bold;
+    
+    }
+
+    #busca{
+    color: rgb(150, 150, 150);
+    }
+
     </style>
 
 
@@ -27,9 +37,9 @@
 <body>
 
     <h2>Primeiro Formulário</h2>
-    <form method="GET" action="">
+    <form method="GET" action="https://www.youtube.com/results"  target="_blank">
 
-        <input type="text" name="search_query">
+        <input type="text" id="busca" name="search_query" value="digite algo" required>
         <input class="enviar" type="submit" value="Enviar">
     
 
@@ -38,13 +48,13 @@
     <h2>Tipos de Input</h2>
 
     <label>Senha:</label>
-    <input type="password" name="senha">
+    <input type="password" name="senha" maxlength="10">
 
     <br><br>
 
     <label>CheckBox:</label>
     <br>
-    <input type="checkbox" name="curso" value="op1">React Native
+    <input type="checkbox" name="curso" value="op1" checked>React Native
     <br>
     <input type="checkbox" name="curso" value="op2">React JS
     <br>
@@ -60,9 +70,49 @@
 
     <br><br>
 
-    <label>Reset</label>
+    <label for="Limpar">Reset</label>
     <br>
     <input type="reset" value="Limpar">
+    
+    <br><br>
+
+    <label for="favcolor">Color</label>
+    <input type="color" id="favcolor" name="favcolor">
+
+    <br><br>
+
+    <label for="button">Botão</label>
+    <input type="button" name="button" onclick="alert('Hellow World')" value="botão">
+
+    <br><br>
+
+    <label for="aniversario">Date: </label>
+    <input type="date" name="aniversario">
+
+    <br><br>
+
+    <label for="hora">Datetime: </label>
+    <input type="datetime-local" name="hora">
+
+    <br><br>
+
+    <label for="email">Email: </label>
+    <input type="email" name="email">
+
+    <br><br>
+
+    <label for="myfile">File:</label>
+    <input type="file" name="myfile">
+
+    <br><br>
+
+    <label for="mes">Month: </label>
+    <input type="month" name="mes">
+
+    <br><br>
+
+    <label for="quantidade">Number:</label>
+    <input type="number" name="quantidade" min="1" max="10">
 
 
 
