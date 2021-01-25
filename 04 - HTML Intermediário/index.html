@@ -21,6 +21,8 @@
         border: 1.5px solid rgb(0, 0, 0);
         border-radius: 7px;
         width: 150px;
+        font-size: 90%;
+        font-weight: bold;
     }
 
     .enviar:hover{
@@ -45,7 +47,7 @@
 </head>
 <body>
 
-    <h2>Primeiro Formulário</h2>
+    <h2>💦Primeiro Formulário</h2>
     <form method="GET" action="https://www.youtube.com/results"  target="_blank">
 
         <input type="text" id="busca" name="search_query" value="digite algo" required>
@@ -54,7 +56,7 @@
 
     <br>
 
-    <h2>Tipos de Input</h2>
+    <h2>💦Tipos de Input</h2>
 
     <label>Senha:</label>
     <input type="password" name="senha" maxlength="10">
@@ -153,8 +155,39 @@
     <label for="semana">Selecione uma semana:</label>
     <input type="week" name="semana">
 
+</form>
+    <br><br>
 
+    <form method="GET" action="" name="form_estado"></form>
+    <h2>💦SELECT</h2>
+        <label for="estado">Escolha uma capital: </label>
+        <select name="estado" id="estado" form="form_estado" size="2" multiple autofocus>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP" selected>São Paulo</option>
+            <option value="MG">Belo Horizonte</option>
+            <option value="CE">Fortaleza</option>
+            <option value="ES">Vitória</option>
+        </select>
+    
+        <input type="submit" value="Enviar" class="enviar">
     </form>
+
+    <br><br>
+
+    <form method="GET" action="">
+        <h2>💦TextArea</h2>
+        <label for="assunto">Input Text:</label>
+        <input type="text" name="assunto" id="assunto">
+
+        <br><br>
+
+        <label for="mensagem">Textarea</label>
+        <textarea name="mensagem" rows="3" cols="50" placeholder="deixe seu comentário" wrap="hard"></textarea>
+
+        <input type="submit" class="enviar">
+    </form>
+
+
     
 </body>
 </html>
