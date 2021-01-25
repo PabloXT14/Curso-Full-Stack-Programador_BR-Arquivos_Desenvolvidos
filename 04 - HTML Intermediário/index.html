@@ -8,7 +8,13 @@
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
-    <style>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+
+
+    <style>    
 
     h2{
         font-family: "Yusei Magic", sans-serif;
@@ -39,6 +45,121 @@
     #busca{
     color: rgb(150, 150, 150);
     }
+
+
+    /* TAGS SEMÂNTICAS HTML 5 */
+    .semantica_html5{
+        height: 600px;
+        background: rgb(153, 200, 248);
+
+    }
+
+    /* Cabeçalho */
+    header{
+        height: 10%;
+        background: rgb(250, 23, 110);
+    }
+
+    .logo{
+        float: left;
+        margin-left: 34%;
+        font-family: Lato, sans-serif;
+        text-align: center;
+    }
+
+    nav{
+    margin: 0;
+    padding: 0;
+    }
+
+    .menu{
+        float: right;
+        list-style: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        /* background: rgb(143, 209, 10); */
+    }
+
+
+
+    li{
+        float: left;
+        font-family: Lato, sans-serif;
+        padding: 20.5px; 
+    }
+
+    li:hover{
+        background: rgb(139, 15, 63);
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+
+    /* Principal */
+    main{
+        background: rgb(28, 255, 161);
+        height: 80%;
+    }
+
+    article{
+        background: rgb(243, 183, 18);
+        width: 71%;
+        height: 96%;
+        position: relative;
+        float: left;
+        top: 2%;
+        left: 0.7%;
+        font-family: Lato, sans-serif;
+        font-size: 2em;
+        text-align: center;
+        box-sizing: border-box;
+        padding-top: 200px;
+    }
+
+    .main_section{
+        background: rgb(240, 42, 35);
+        width: 26.25%; 
+        height: 96%;
+        display: inline-block;
+        position: relative;
+        top: 2%;
+        right: -2%;
+        overflow: auto;
+        
+    }
+
+    .sub_section{
+        display: block;
+        width: 92%;
+        height: 29%;
+        background: rgb(113, 66, 201);
+        margin: 4%;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        text-align: center;
+        box-sizing: border-box;
+        padding-top: 13% ;
+        font-family: Lato, sans-serif;
+        font-size: 2em;
+        
+    }
+
+    .sub_section:hover{
+        cursor: pointer;
+    }
+
+
+    /* Rodapé */
+
+    footer{
+        background: rgb(0, 63, 136);
+        height: 10%;
+        text-align: center;
+        padding-top: 15px;
+        font-family: Lato, sans-serif;
+        color: rgb(255, 255, 255);
+    }
+
 
     </style>
 
@@ -187,7 +308,80 @@
         <input type="submit" class="enviar">
     </form>
 
+    <br>
 
+    <form method="GET" action="">
+        <h2>💦Fieldset e Legend</h2>
+        <fieldset>
+            <legend>Personalia</legend>
+            <label for="pname">Primeiro nome:</label><br>
+            <input type="text" id="pname" name="pname"><br>
+            <label for="uname">Ultimo nome:</label><br>
+            <input type="text" id="uname" name="uname"><br>
+            <br>
+            <input type="submit" value="Enviar" class="enviar" autofocus>
+        </fieldset>
+
+    </form>
     
+    <br>
+
+    <form method="GET" action="">
+        <h2>💦Datalist</h2>
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Edge">
+        </datalist>
+        <input type="submit" value="Enviar" class="enviar">
+    </form>
+
+    <br>
+
+    <form method="GET" action="" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <h2>💦Output</h2>
+        0 <input type="range" id="a" name="a" value="50"> 100
+        + <input type="number" id="b" name="b" value="50">
+        = <output name="x" for="a b"></output>
+        <br>
+        <input type="submit" value="Enviar" class="enviar">
+    </form>
+
+    <br><br>
+
+    <h2>💖HTML 5</h2>
+
+    <div class="semantica_html5">
+        <header>
+            <h3 class="logo">Logo/Header</h3>
+            <nav>
+                <ul class="menu">
+                    <li>Home</li>
+                    <li>Cursos</li>
+                    <li>Contatos</li>
+                    <li>Ajuda</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+        
+            <article>Article</article>
+            <section class="main_section">
+                <section class="sub_section">Section</section>
+                <section class="sub_section">Section</section>
+                <section class="sub_section">Section</section>
+            </section>
+        
+        </main>
+        <footer>
+            Footer
+            <address>pabloxt14@gmail.com</address>
+        </footer>
+    </div>
+
+    <br><br><br>
+
+
 </body>
 </html>
