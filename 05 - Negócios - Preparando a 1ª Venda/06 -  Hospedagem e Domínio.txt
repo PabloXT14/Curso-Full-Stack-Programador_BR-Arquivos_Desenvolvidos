@@ -1,0 +1,78 @@
+HOSPEDAGEM  E DOMÍNIO
+
+#DOMÍNIO:
+
+* O QUE É:
+- Trata-se do endereço que o internauta vai digitar para chegar até sua loja, aquele que começa com
+“www” e, em geral, termina com “.com.br”.
+
+* COMO CONSEGUIR UM DOMÍNIO?
+- Para criar um domínio, você deve procurar por empresas especializadas no serviço, como o UOL Host,
+Registro.br, Super Domínios, entre outros.
+- O próximo passo é pesquisar para ver se aquele endereço que você que para sua loja (por exemplo,
+“www.lojadaesquina.com.br”) não foi registrado antes por ninguém. Você pode fazer essa pesquisa no
+próprio site do UOL Host ou no Registro.br, caso o domínio que você quer registrar termine em “.br”.
+- As opções não se esgotam no tradicional “.com.br”. Você também pode optar por um domínio 
+terminado apenas em “.com” ou por terminações específicas para o seu negócio, como “.adv.br” (para
+advogados) ou “.med.br” (para médicos).
+
+* DICAS PARA NOME DE DOMÍNIO:
+- Na hora de criar seu domínio, opte por um nome enxuto, com uma ou duas palavras, para que seu 
+leitor não tenha dificuldade em acessá-lo.
+- Às vezes, o nome pretendido pode já ser um domínio registrado por outra pessoa. Nesse caso, você
+pode optar por colocar termos precedendo sua marca. Por exemplo, se for uma loja virtual, você pode 
+colocar a palavra “loja” antes.
+- Agora se o endereço que você quer não estiver sendo usado, mas já foi registrado, você pode 
+procurar o detentor da marca para tentar comprá-lo.
+- Vale lembrar também que determinados serviços de domínio também oferecem e-mails para sua 
+empresa. Eles são uma forma de mostrar profissionalismo na hora de entrar em contato com o seu 
+cliente. Invista!
+
+#HOSPEDAGEM
+
+* O QUE É?
+- A hospedagem é o espaço que seu site vai ocupar na internet. É por meio desse serviço que você
+armazena os arquivos que mantém seu site no ar.
+
+* COMO CONSIGO UM "ESPAÇO " PARA MEU SITE?
+- Existem diversas empresas que oferecem este serviço, que pode ser gratuito ou pago (Hospedagem 
+paga x hospedagem gratuita). Há vantagens e desvantagens em cada modelo de contratação. Pesquise
+bem (Como escolher o plano de hospedagem para o seu site?) antes de decidir se irá pagar ou não 
+pela hospedagem.
+- Leve em conta os recursos oferecidos como espaço disponível de armazenamento, tráfego de dados,
+redirecionamento de links e e-mails, painel de controle e estatísticas.
+- Também é importante levar em conta a confiabilidade do serviço, afinal, você não vai querer que seu
+site seja invadido por criminosos ou fique fora do ar no momento em que um cliente quer falar com 
+você.
+- Exemplos de empresas de hospedagem de sites:
+   * HostGator
+   * Locaweb
+   * Hostnet
+   * Hostinger
+
+* TIPOS DE HOSPEDAGEM:
+- Hospedagem Compartilhada: nesta um servidor irá armazenar mais de um site, sendo assim, o preço
+acaba sendo mais barato, no entanto, haverá uma limitação no tamanho do site hospedado, para que
+todo os outros também possam ser hospedados, além de possuir mais fragilidade em questão de
+segurança (esta é a hospedagem mais recomendável para iniciantes que não possuem um site robusto
+e cheio de aplicações para botar no ar, além do servidor já vir configurado, basta colocar o seu site).
+- Hospedagem Dedicada: nesta tem-se um servidor exclusivo para o seu site, sendo assim, o preço
+acaba sendo mais alto, no entanto, haverá mais espaço de armazenamento e uma melhor segurança,
+uma desvantagem é que o proprietário em alguns casos é quem deve configurar o servidor (este tipo de
+hospedagem é mais recomendada para pessoas/empresas que possuem um site robusto que precisa
+grandes dados, como vários produtos entre outros)
+
+* DICA:
+- Existem empresas que oferecem pacotes com os serviços de domínio e hospedagem combinados. A
+alternativa facilita a criação do seu espaço, e, muitas vezes, o preço pode ser mais vantajoso. Falando
+nisso você conhece o criador de loja virtual do UOL?
+
+
+
+
+
+
+
+
+
+
