@@ -1,5 +1,7 @@
 let name = prompt('Digite seu nome!');
 
+alert('Seja Bem-Vindo '+name);
+
 let numeros = prompt('Digite um número qualquer entre 0 e 100');
 
  if((numeros >= 0) && (numeros <= 100)){
