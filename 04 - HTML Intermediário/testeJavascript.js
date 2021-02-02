@@ -350,41 +350,41 @@ function dividir(num, por = 2){
 /************MÉTODOS DE STRINGS**************/
 
 
-/*length (mostra o nº de caracteres da string)*/
-let nome = 'Pabla';
-console.log(nome.length);
+// /*length (mostra o nº de caracteres da string)*/
+// let nome = 'Pabla';
+// console.log(nome.length);
 
-/*IndexOf (mostra o índice de um caracter da string, se não tiver o caracter aparce -1) */
-let frase = 'O rato roeu a roupa do rei de Roma';
-console.log(frase.indexOf('roeu'));
+// /*IndexOf (mostra o índice de um caracter da string, se não tiver o caracter aparce -1) */
+// let frase = 'O rato roeu a roupa do rei de Roma';
+// console.log(frase.indexOf('roeu'));
 
-/*Slice (remove um certo caracter da string)*/
-let roeu = frase.slice(7, 11);//(indice de início da palavra + indice de término da palavra)
-console.log(roeu);
+// /*Slice (remove um certo caracter da string)*/
+// let roeu = frase.slice(7, 11);//(indice de início da palavra + indice de término da palavra)
+// console.log(roeu);
 
-/*Replace (troca um determinado caracter da string por outro caracter)*/
-//pode usar replaceAll para mudar todos os caracteres repetidos de uma string
-let novaFrase = frase.replace('roeu', 'testou');
-console.log(novaFrase);
+// /*Replace (troca um determinado caracter da string por outro caracter)*/
+// //pode usar replaceAll para mudar todos os caracteres repetidos de uma string
+// let novaFrase = frase.replace('roeu', 'testou');
+// console.log(novaFrase);
 
-/*toLowerCase e toUpperCase (deixa a string em caixa baixa ou alta respectivamente)*/
-console.log('Caixa baixa: '+frase.toLowerCase());
-console.log('Caixa alta: '+frase.toUpperCase());
+// /*toLowerCase e toUpperCase (deixa a string em caixa baixa ou alta respectivamente)*/
+// console.log('Caixa baixa: '+frase.toLowerCase());
+// console.log('Caixa alta: '+frase.toUpperCase());
 
 
-/*Trim (retira espaços em branco do início e fim de uma string)*/
-let espaços = '       Batata         ';
-let newEspaços = espaços.trim();
-console.log(espaços);
-console.log(newEspaços);
+// /*Trim (retira espaços em branco do início e fim de uma string)*/
+// let espaços = '       Batata         ';
+// let newEspaços = espaços.trim();
+// console.log(espaços);
+// console.log(newEspaços);
 
-/*Split (transforma uma string em array e identifica através de um parâmetro onde vai seperar os elementos para o array)*/
-let tags = 'PHP, Javascript, HTML, CSS';
-console.log(tags.split(', '));
+// /*Split (transforma uma string em array e identifica através de um parâmetro onde vai seperar os elementos para o array)*/
+// let tags = 'PHP, Javascript, HTML, CSS';
+// console.log(tags.split(', '));
 
-/*LastIndexOf (encontra o índice da última letra de uma palavra de uma string)*/
-let fraseDois = 'Eu quero a última palavra teste desta frase de teste';
-console.log(fraseDois.lastIndexOf('teste'));
+// /*LastIndexOf (encontra o índice da última letra de uma palavra de uma string)*/
+// let fraseDois = 'Eu quero a última palavra teste desta frase de teste';
+// console.log(fraseDois.lastIndexOf('teste'));
 
 
 
