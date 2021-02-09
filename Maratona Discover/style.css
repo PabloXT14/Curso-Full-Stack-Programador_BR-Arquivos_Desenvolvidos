@@ -54,6 +54,7 @@ header{
 /*Cards ===================================*/
 .card{
     background: rgb(255, 255, 255);
+    /* background: rgb(245, 129, 175); */
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
 
