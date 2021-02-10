@@ -2,6 +2,7 @@
 /*variáveis*/
 :root{
     --dark-blue: #363f5f;
+    --test-background: rgb(114, 233, 77);
 }
 
 
@@ -128,6 +129,7 @@ td.expense{
 
 /*Footer ===================================*/
 footer{
+    /* background: var(--test-background); */
     text-align: center;
     padding: 4rem 0 2rem;
     color: var(--dark-blue);
